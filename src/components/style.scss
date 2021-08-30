@@ -1,0 +1,32 @@
+.main {
+    padding: 30px;
+    .main-container{
+        padding: 10px;
+        .heading{
+            text-align: center;
+        }
+        >.pagination-container{
+            display: flex;
+            width: 100%;
+            >ul{
+                >li{
+                    color: black;
+                    padding: 8px 16px;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #ddd;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            >.pagination{
+                margin: auto;
+                >.active{
+                    background-color: #4CAF50;
+                    color: white;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
